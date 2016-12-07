@@ -1,0 +1,9 @@
+﻿h2 {
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+p span {
+	text-decoration: underline;
+	font-weight: bold;
+}

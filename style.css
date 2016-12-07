@@ -6,6 +6,7 @@
 html {
 	background-color: #EEEEEE;
 	height: 100%;
+	font-family: "Calibri", "Arial";
 }
 body {
 	height: 100%;
@@ -20,6 +21,7 @@ body {
 	background: #20406A;
 	width: 100%;
 	height: 100px;
+	position: relative;
 }
 
 .page-header .layout-positioner {
@@ -36,12 +38,14 @@ body {
 
 .main-menu {
 	list-style: none;
-	margin: 52px 0 0 280px;
+	position: absolute;
+	right: 55px;
+	bottom: 0;
+	font-size: 0;
 }
 
 .main-menu li {
 	display: inline-block;
-	margin-right: -4px;
 }
 
 .main-menu li a {
@@ -53,7 +57,7 @@ body {
 	background-color: #1C385D;
 	color: #fff;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 14.5px;
 }
 
 .main-menu li a[href="index.html"] {
@@ -90,14 +94,18 @@ main .fix, .page-footer .layout-positioner {
 	color: #fff;
 }
 
-.page-footer .social-container {
-	float: left;
-	width: 218px;
-	height: 70px;
-	line-height: 70px;
+.page-footer .layout-positioner {
+	position: relative;
 }
 
-.page-footer .social-container .social {
+.page-footer .social-container {
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	position: absolute;
+}
+
+.page-footer .social {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
@@ -107,15 +115,15 @@ main .fix, .page-footer .layout-positioner {
 	border-radius: 10px;
 }
 
-.page-footer .social-container .social-fb {
+.page-footer .social-fb {
 	background: #2D2A92 url("social.png") no-repeat 45% 0;
 }
 
-.page-footer .social-container .social-gp {
+.page-footer .social-gp {
 	background: #E03131 url("social-challenge.png") no-repeat 110% 40%;
 }
 
-.page-footer .social-container .social:hover {
+.page-footer .social:hover {
 	background-color: rgba(255,0,0,0.75);
 }
 
@@ -127,5 +135,5 @@ main .fix, .page-footer .layout-positioner {
 	vertical-align: middle;
 	text-align: right;
 	padding-right: 30px;
-	font-size: 14px;
+	font-size: 12px;
 }
