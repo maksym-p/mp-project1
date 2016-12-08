@@ -6,4 +6,5 @@
 .hi + p {
 	margin-top: 10px;
 	font-style: italic;
+	text-align: justify;
 }
