@@ -34,7 +34,7 @@ body {
 .page-header .logo {
 	position: absolute;
 	left: 25px;
-	/*top: 15px;*/
+	top: 5px;
 }
 
 .main-menu {
@@ -78,9 +78,9 @@ main .layout-positioner {
 	width: 680px;
 	min-height: calc(100vh - 100px); /*- 120px*/
 	padding: 10px;
-	background: #FBFFA1;
-	border-right: 1px solid #D8E12D;
-	border-left: 1px solid #D8E12D;
+	background: #FFFDD0;
+	border-right: 1px solid #FFF996;
+	border-left: 1px solid #FFF996;
 }
 
 main .fix, .page-footer .layout-positioner {
@@ -109,9 +109,9 @@ main .fix, .page-footer .layout-positioner {
 
 .page-footer .social {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
-	background: #3C29AA url("social.png") no-repeat;
+	width: 35px;
+	height: 35px;
+	background: #3C29AA url("social.png") no-repeat 2% 12%;
 	vertical-align: middle;
 	margin-left: 30px;
 	border-radius: 10px;
@@ -122,7 +122,7 @@ main .fix, .page-footer .layout-positioner {
 }
 
 .page-footer .social-gp {
-	background: #E03131 url("social-challenge.png") no-repeat 110% 40%;
+	background: #E03131 url("social-challenge.png") no-repeat 105% 40%;
 }
 
 .page-footer .social:hover {
